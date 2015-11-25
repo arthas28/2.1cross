@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*定义最外部的容器div，垂直水平居中*/
+.div0{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+/*div1、div2、div4、div5分别为十字架四个方向div*/
+.div1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 100px;
+    background-color: green;
+    /*box-shadow设置边框内背影*/
+    box-shadow: 2px 2px 5px 1px black inset;
+    /*border-radius设置边框弧度*/
+    border-radius: 20px 20px 0 0;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color: orange;
+    box-shadow: 2px 2px 5px 1px black inset;
+    border-radius: 0 20px 20px 0;
+}
+/*设置十字架中间图像icon div*/
+.div3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 100px;
+    background-color: red;
+    background-image: url("image/berry1.png");
+    /*background-size设置图像大小*/
+    background-size: 60%;
+    /*背景图像不重复*/
+    background-repeat: no-repeat;
+    /*背景图像垂直水平居中*/
+    background-position: center;
+    box-shadow: 2px 2px 5px 1px black inset;
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 200px;
+    background-color: blue;
+    box-shadow: 2px 2px 5px 1px black inset;
+    border-radius: 0 0 20px 20px;
+}
+.div5{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 100px auto;
+    background-color: yellow;
+    box-shadow: 2px 2px 5px 1px black inset;
+    border-radius: 20px 0 0 20px;
+}
